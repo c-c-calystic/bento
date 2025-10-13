@@ -11,29 +11,29 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'John',
+	name: 'Collin',
 	imageBackground: false,
 	openInNewTab: true,
-	twelveHourFormat: false,
+	twelveHourFormat: true,
 
 	// Greetings
 	greetingMorning: 'Good morning!',
 	greetingAfternoon: 'Good afternoon,',
 	greetingEvening: 'Good evening,',
-	greetingNight: 'Go to Sleep!',
+	greetingNight: 'Goood night,',
 
 	// Layout
-	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
+	bentoLayout: 'buttons', // 'bento', 'lists', 'buttons'
 
 	// Weather
-	weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
-	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
-	weatherUnit: 'C', // 'F', 'C'
+	weatherKey: '05eec1dbeacd0c51e280f1078d9ecb7a', // Write here your API Key
+	weatherIcons: 'White', // 'Onedark', 'Nord', 'Dark', 'White'
+	weatherUnit: 'F', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
 	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-	defaultLatitude: '37.775',
-	defaultLongitude: '-122.419',
+	defaultLatitude: '40.826942',
+	defaultLongitude: '-74.003982',
 
 	// Autochange
 	autoChangeTheme: true,
@@ -53,78 +53,78 @@ const CONFIG = {
 	firstButtonsContainer: [
 		{
 			id: '1',
-			name: 'Github',
-			icon: 'github',
-			link: 'https://github.com/',
+			name: 'Mail',
+			icon: 'mail-plus',
+			link: 'https://mail.google.com/mail/u/0/#all',
 		},
 		{
 			id: '2',
 			name: 'Mail',
-			icon: 'mail',
-			link: 'https://mail.protonmail.com/',
+			icon: 'mail-warning',
+			link: 'https://mail.google.com/mail/u/1/#all',
 		},
 		{
 			id: '3',
-			name: 'Todoist',
-			icon: 'trello',
-			link: 'https://todoist.com',
+			name: 'Mail',
+			icon: 'mail-x',
+			link: 'https://mail.google.com/mail/u/2/#all',
 		},
 		{
 			id: '4',
 			name: 'Calendar',
-			icon: 'calendar',
-			link: 'https://calendar.google.com/calendar/r',
+			icon: 'calendar-days',
+			link: 'https://calendar.google.com/calendar/u/0/r',
 		},
 		{
 			id: '5',
-			name: 'Reddit',
-			icon: 'glasses',
-			link: 'https://reddit.com',
+			name: 'Todo',
+			icon: 'list-todo',
+			link: 'https://app.todoist.com/app/upcoming#',
 		},
 		{
 			id: '6',
-			name: 'Odysee',
-			icon: 'youtube',
-			link: 'https://odysee.com/',
+			name: 'Notes',
+			icon: 'notepad-text',
+			link: 'https://www.icloud.com/notes/folder/UHJpdmF0ZTo6Tm90ZXM6OmN1cnJlbnRVc2VyOjpEZWZhdWx0Rm9sZGVyLUNsb3VkS2l0',
 		},
 	],
 
 	secondButtonsContainer: [
 		{
 			id: '1',
-			name: 'Music',
-			icon: 'headphones',
-			link: 'https://open.spotify.com',
+			name: 'Videos',
+			icon: 'youtube',
+			link: 'https://www.youtube.com/',
 		},
 		{
 			id: '2',
-			name: 'twitter',
-			icon: 'twitter',
-			link: 'https://twitter.com/',
+			name: 'Streaming',
+			icon: 'tv',
+			link: 'https://www.imdb.com/user/ur209914350/watchlist/?ref_=hm_nv_urwls_all',
 		},
 		{
 			id: '3',
-			name: 'bot',
-			icon: 'bot',
-			link: 'https://discord.com/app',
+			name: 'Anime',
+			icon: 'badge-japanese-yen',
+			link: 'https://aniwatchtv.to/',
 		},
 		{
 			id: '4',
-			name: 'Amazon',
-			icon: 'shopping-bag',
-			link: 'https://amazon.com/',
+			name: 'Library',
+			icon: 'square-library',
+			link: 'https://archive.org/details/@dominicanodominator/collections',
 		},
 		{
 			id: '5',
-			name: 'Hashnode',
-			icon: 'pen-tool',
-			link: 'https://hashnode.com/',
+			name: 'Comics',
+			icon: 'newspaper',
+			link: 'https://readcomiconline.li/',
 		},
 		{
 			id: '6',
-			name: 'Figma',
-			icon: 'figma',
-			link: 'https://figma.com/',
+			name: 'Manga',
+			icon: 'square-kanban',
+			link: 'https://weebcentral.com/users/me/subscriptions',
 		},
 	],
 
@@ -135,46 +135,46 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
-			icon: 'music',
+			icon: 'sofa',
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Videos',
+					link: '---',
 				},
 				{
-					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Streaming',
+					link: '---',
 				},
 				{
-					name: 'Oldies',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Anime',
+					link: '---',
 				},
 				{
-					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'blank',
+					link: '---',
 				},
 			],
 		},
 		{
-			icon: 'coffee',
+			icon: 'square-library',
 			id: '2',
 			links: [
 				{
-					name: 'Linkedin',
-					link: 'https://www.linkedin.com',
+					name: 'Library',
+					link: '---',
 				},
 				{
-					name: 'Dribbble',
-					link: 'https://www.dribbble.com',
+					name: 'Comics',
+					link: '---',
 				},
 				{
-					name: 'Trello',
-					link: 'https://www.trello.com',
+					name: 'Manga',
+					link: '---',
 				},
 				{
-					name: 'Slack',
-					link: 'https://www.slack.com',
+					name: 'blank',
+					link: '---',
 				},
 			],
 		},
