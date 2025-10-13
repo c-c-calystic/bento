@@ -64,12 +64,6 @@ const CONFIG = {
 			link: 'https://mail.google.com/mail/u/1/#all',
 		},
 		{
-			id: '5',
-			name: 'Mail',
-			icon: 'mail-x',
-			link: 'https://mail.google.com/mail/u/2/#all',
-		},
-		{
 			id: '3',
 			name: 'Calendar',
 			icon: 'calendar-days',
@@ -80,6 +74,12 @@ const CONFIG = {
 			name: 'Todo',
 			icon: 'list-todo',
 			link: 'https://app.todoist.com/app/upcoming#',
+		},
+		{
+			id: '5',
+			name: 'Mail',
+			icon: 'mail-x',
+			link: 'https://mail.google.com/mail/u/2/#all',
 		},
 		{
 			id: '6',
@@ -103,12 +103,6 @@ const CONFIG = {
 			link: 'https://www.imdb.com/user/ur209914350/watchlist/?ref_=hm_nv_urwls_all',
 		},
 		{
-			id: '5',
-			name: 'Anime',
-			icon: 'badge-japanese-yen',
-			link: 'https://aniwatchtv.to/',
-		},
-		{
 			id: '3',
 			name: 'Library',
 			icon: 'square-library',
@@ -119,6 +113,12 @@ const CONFIG = {
 			name: 'Comics',
 			icon: 'newspaper',
 			link: 'https://readcomiconline.li/',
+		},
+		{
+			id: '5',
+			name: 'Anime',
+			icon: 'badge-japanese-yen',
+			link: 'https://aniwatchtv.to/',
 		},
 		{
 			id: '6',
