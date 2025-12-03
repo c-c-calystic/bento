@@ -118,7 +118,7 @@ const CONFIG = {
 			id: '5',
 			name: 'Anime',
 			icon: 'badge-japanese-yen',
-			link: 'https://aniwatchtv.to/',
+			link: 'https://hianime.to/home',
 		},
 		{
 			id: '6',
