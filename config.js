@@ -73,7 +73,7 @@ const CONFIG = {
 			id: '4',
 			name: 'Todo',
 			icon: 'list-todo',
-			link: 'https://app.todoist.com/app/upcoming#',
+			link: 'https://ticktick.com/webapp/#q/today/tasks',
 		},
 		{
 			id: '5',
