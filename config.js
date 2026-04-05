@@ -183,46 +183,46 @@ const CONFIG = {
 	// Second Links Container
 	secondListsContainer: [
 		{
-			icon: 'binary',
+			icon: '',
 			id: '1',
 			links: [
 				{
-					name: 'Spotify',
-					link: 'https://www.spotify.com',
+					name: '',
+					link: '',
 				},
 				{
-					name: 'Reddit',
-					link: 'https://www.reddit.com',
+					name: '',
+					link: '',
 				},
 				{
-					name: 'Hashnode',
-					link: 'https://www.hashnode.com',
+					name: '',
+					link: '',
 				},
 				{
-					name: 'Pocket',
-					link: 'https://www.pocket.com',
+					name: '',
+					link: '',
 				},
 			],
 		},
 		{
-			icon: 'github',
+			icon: '',
 			id: '2',
 			links: [
 				{
-					name: 'Front',
-					link: 'https://www.reddit.com/r/Frontend/',
+					name: '',
+					link: '',
 				},
 				{
-					name: 'Rust',
-					link: 'https://www.reddit.com/r/rust/',
+					name: '',
+					link: '',
 				},
 				{
-					name: 'Go',
-					link: 'https://www.reddit.com/r/golang/',
+					name: '',
+					link: '',
 				},
 				{
-					name: 'Repos',
-					link: 'https://github.com/migueravila',
+					name: '',
+					link: '',
 				},
 			],
 		},
