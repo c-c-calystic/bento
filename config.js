@@ -147,7 +147,7 @@ const CONFIG = {
 					link: 'https://real-debrid.com/downloader',
 				},
 				{
-					name: 'Sites',
+					name: 'Stream Sites',
 					link: 'https://fmhy.net/video#streaming-sites',
 				},
 				{
