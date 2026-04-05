@@ -23,7 +23,7 @@ const CONFIG = {
 	greetingNight: 'Good night,',
 
 	// Layout
-	bentoLayout: 'buttons', // 'bento', 'lists', 'buttons'
+	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
 	// Weather
 	weatherKey: '05eec1dbeacd0c51e280f1078d9ecb7a', // Write here your API Key
@@ -31,7 +31,7 @@ const CONFIG = {
 	weatherUnit: 'F', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
-	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
+	trackLocation: false, // If false or an error occurs, the app will use the lat/lon below
 	defaultLatitude: '40.826942',
 	defaultLongitude: '-74.003982',
 
@@ -65,9 +65,9 @@ const CONFIG = {
 		},
 		{
 			id: '3',
-			name: 'Calendar',
-			icon: 'calendar-days',
-			link: 'https://calendar.google.com/calendar/u/0/r',
+			name: 'Notes',
+			icon: 'notepad-text',
+			link: 'https://www.icloud.com/notes/folder/UHJpdmF0ZTo6Tm90ZXM6OmN1cnJlbnRVc2VyOjpEZWZhdWx0Rm9sZGVyLUNsb3VkS2l0',
 		},
 		{
 			id: '4',
@@ -83,48 +83,48 @@ const CONFIG = {
 		},
 		{
 			id: '6',
-			name: 'Notes',
-			icon: 'notepad-text',
-			link: 'https://www.icloud.com/notes/folder/UHJpdmF0ZTo6Tm90ZXM6OmN1cnJlbnRVc2VyOjpEZWZhdWx0Rm9sZGVyLUNsb3VkS2l0',
+			name: 'GitHub',
+			icon: 'square-slash',
+			link: 'https://github.com/',
 		},
 	],
 
 	secondButtonsContainer: [
 		{
 			id: '1',
-			name: 'Videos',
-			icon: 'youtube',
-			link: 'https://www.youtube.com/',
+			name: '',
+			icon: '',
+			link: '',
 		},
 		{
 			id: '2',
-			name: 'Streaming',
-			icon: 'tv',
-			link: 'https://www.imdb.com/user/ur209914350/watchlist/?ref_=hm_nv_urwls_all',
+			name: '',
+			icon: '',
+			link: '',
 		},
 		{
 			id: '3',
-			name: 'Library',
-			icon: 'square-library',
-			link: 'https://archive.org/details/@dominicanodominator/collections',
+			name: '',
+			icon: '',
+			link: '',
 		},
 		{
 			id: '4',
-			name: 'Comics',
-			icon: 'newspaper',
-			link: 'https://readcomiconline.li/',
+			name: '',
+			icon: '',
+			link: '',
 		},
 		{
 			id: '5',
-			name: 'Anime',
-			icon: 'badge-japanese-yen',
-			link: 'https://hianime.to/home',
+			name: '',
+			icon: '',
+			link: '',
 		},
 		{
 			id: '6',
-			name: 'Manga',
-			icon: 'square-kanban',
-			link: 'https://weebcentral.com/users/me/subscriptions',
+			name: '',
+			icon: '',
+			link: '',
 		},
 	],
 
@@ -139,20 +139,20 @@ const CONFIG = {
 			id: '1',
 			links: [
 				{
-					name: 'Videos',
-					link: '---',
+					name: 'Youtube',
+					link: 'https://www.youtube.com/',
 				},
 				{
-					name: 'Streaming',
-					link: '---',
+					name: 'Real-Debrid',
+					link: 'https://real-debrid.com/downloader',
 				},
 				{
-					name: 'Anime',
-					link: '---',
+					name: 'Sites',
+					link: 'https://fmhy.net/video#streaming-sites',
 				},
 				{
-					name: 'blank',
-					link: '---',
+					name: 'IMDb',
+					link: 'https://www.imdb.com/user/ur209914350/watchlist/?ref_=hm_nv_urwls_all',
 				},
 			],
 		},
@@ -162,19 +162,19 @@ const CONFIG = {
 			links: [
 				{
 					name: 'Library',
-					link: '---',
+					link: 'https://archive.org/details/@dominicanodominator/collections',
 				},
 				{
 					name: 'Comics',
-					link: '---',
+					link: 'https://readcomiconline.li/',
 				},
 				{
 					name: 'Manga',
-					link: '---',
+					link: 'https://weebcentral.com/users/me/subscriptions',
 				},
 				{
-					name: 'blank',
-					link: '---',
+					name: 'AniList',
+					link: 'https://anilist.co/user/calystic/',
 				},
 			],
 		},
